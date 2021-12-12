@@ -1,13 +1,11 @@
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
-import javax.script.SimpleScriptContext;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import java.util.List;
+import org.junit.Before;
+import org.junit.Test;
 
 class SimpleTest2 {
     Simple simple;
-    @BeforeEach
+    @Before
     void setUp() {
         simple = new Simple();
     }
